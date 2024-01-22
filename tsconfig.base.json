@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-react-library/Components": ["libraries/components/src/index.ts"],
+      "@nx-react-library/Utilities": ["libraries/utilities/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
