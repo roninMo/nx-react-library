@@ -212,7 +212,7 @@ const workExperience: ProjectInformation[] = [
       'Frontend: Angular / Redux / Cypress / Rxjs / Nx / Playwright / Azure Devops Deployment',
       'Handling building the quoting platform for agents for home and helping auto documenting and designing best practices'
     ],
-    imageUrl: '/public/liberty_mutual_insurance.jpg'
+    imageUrl: '/liberty_mutual_insurance.jpg'
   },
   {
     duration: 'Nov 2020 - Jun 2022 (1 year 8 months)',
@@ -223,7 +223,7 @@ const workExperience: ProjectInformation[] = [
       'Frontend: React / Redux / Cypress / Logging / Automated Deployments',
       'Everything from building and automating deployments to handling complex tasks for user experience'
     ],
-    imageUrl: '/public/state_auto_insurance.jpg'
+    imageUrl: '/state_auto_insurance.jpg'
   },
   {
     duration: 'Jul 2019 - Apr 2019 (8 months)',
@@ -234,7 +234,7 @@ const workExperience: ProjectInformation[] = [
       'Backend Api integrations for data analytics from APIs such as Google and Bing. Data went to AWS or ETL then to Snowflake databases.',
       'Created and managed all our visuals for our platform through Looker. Including the graphs/ visualizations for some of our products'
     ],
-    imageUrl: '/public/demandJump.jpg'
+    imageUrl: '/demandJump.jpg'
   }
 ];
 
@@ -265,7 +265,7 @@ const otherProjects: any[] = [
     description: "Full stack app for insurance companies to manage all their client information safely in the cloud. I'm creating an OLTP with a MySQL database with Express, while playtesting different queries for routing information to the client side. The framework is Angular to handle building the frontend dynamically",
     link: 'Source Code',
     linkUrl: 'https://github.com/roninMo/Client-Demo-Server',
-    imageUrl: '/public/InsureChoices.png'
+    imageUrl: '/InsureChoices.png'
   },
   
   {
@@ -275,7 +275,7 @@ const otherProjects: any[] = [
     linkUrl: 'https://github.com/roninMo/Studio-Ghibli-Site-Client',
     deployed: 'Hosted and deployed site',
     deployedUrl: 'https://studioghibliapi-66d2a.web.app/home/films',
-    imageUrl: '/public/StudioGhibliAngularSite.png'
+    imageUrl: '/StudioGhibliAngularSite.png'
   },
 
   {
