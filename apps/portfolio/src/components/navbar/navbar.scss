@@ -1,0 +1,13 @@
+
+
+.link {
+  transition: all 400ms ease-in-out;
+  height: 2rem;
+  opacity: 100;
+}
+
+.link-hidden {
+  transition: all 400ms ease-in-out;
+  height: 0 !important;
+  opacity: 0;
+}

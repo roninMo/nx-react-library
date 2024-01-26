@@ -1,0 +1,11 @@
+
+.home {
+  transition: all 400ms ease-in;
+  opacity: 100;
+  transform: scale(100%);
+}
+
+.home-hidden {
+  opacity: 0;
+  transform: scale(80%);
+}

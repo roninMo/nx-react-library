@@ -1,0 +1,37 @@
+
+
+.project {
+  transition: all 1000ms ease-in-out;
+  opacity: 100;
+  transform: translateX(0);
+}
+
+.project-hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.project-image {
+  flex: 2;
+}
+
+.project-description {
+  flex: 3;
+}
+
+.project-responsibilities {
+  li {
+    margin: 0.25rem 0 0.25rem 1.2rem;
+    list-style: disc;
+  }
+}
+
+.loading {
+  animation: loading 2s infinite;
+}
+
+@keyframes loading {
+  0% {background-color: rgb(51, 65, 85);}
+  50% {background-color: rgb(30, 41, 59);}
+  100% {background-color: rgb(51, 65, 85);}
+}

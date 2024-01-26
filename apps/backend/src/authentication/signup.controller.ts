@@ -42,9 +42,8 @@ const signUp = expressAsyncHandler(async (request, response, next) => {
       if (createdUser) {
         response.status(200).json({ token: token, message: "successfully created the user" });
       } else {
-        userCreationErrorResponse(response, { user, address });
         deleteValue(createdAddress.id, Address);
-        return;
+        userCreationErrorResponse(response, { user, address });
       }
     });
 });

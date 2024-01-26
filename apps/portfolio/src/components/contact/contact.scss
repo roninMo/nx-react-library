@@ -1,0 +1,11 @@
+
+.contact {
+  transition: all 400ms ease-in;
+  opacity: 100;
+  transform: scale(100%);
+}
+
+.contact-hidden {
+  opacity: 0;
+  transform: scale(80%);
+}
